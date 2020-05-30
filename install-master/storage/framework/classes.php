@@ -19,4 +19,5 @@
   'RainLab\\Blog\\FormWidgets\\BlogMarkdown' => 'plugins\\rainlab\\blog\\formwidgets\\BlogMarkdown.php',
   'system\\Controllers\\settings' => 'modules\\system\\controllers\\settings.php',
   'system\\Controllers\\updates' => 'modules\\system\\controllers\\updates.php',
+  'cms\\Controllers\\themes' => 'modules\\cms\\controllers\\themes.php',
 );
