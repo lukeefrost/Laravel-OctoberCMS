@@ -36,7 +36,12 @@ class __TwigTemplate_4c0738502ba3f618fc8c12711f079af8fbc88be5541a0d7119b955c027a
         // line 1
         echo "<h1>About</h1>
 <p>This is the about page</p>
-<hr>";
+<hr>
+";
+        // line 4
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("resourcesLinks"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
     }
 
     public function getTemplateName()
@@ -44,9 +49,14 @@ class __TwigTemplate_4c0738502ba3f618fc8c12711f079af8fbc88be5541a0d7119b955c027a
         return "C:\\xampp\\htdocs\\cms\\install-master/themes/luke/pages/about.htm";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  37 => 1,);
+        return array (  42 => 4,  37 => 1,);
     }
 
     public function getSourceContext()

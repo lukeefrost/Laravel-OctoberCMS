@@ -20,4 +20,6 @@
   'system\\Controllers\\settings' => 'modules\\system\\controllers\\settings.php',
   'system\\Controllers\\updates' => 'modules\\system\\controllers\\updates.php',
   'cms\\Controllers\\themes' => 'modules\\cms\\controllers\\themes.php',
+  'luke\\resources\\Plugin' => 'plugins\\luke\\resources\\Plugin.php',
+  'luke\\resources\\components\\links' => 'plugins\\luke\\resources\\components\\links.php',
 );
